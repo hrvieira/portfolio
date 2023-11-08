@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+:root {
+  --color-black: #000525;
+  --color-white: #FFF;
+  --color-cinza: #DDD;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+  width: 100%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-inicio-nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.alinhamento-img-nome {
+  display: flex;
+  align-items: center;
+}
+
+.header-image img {
+  padding: 1rem;
+  max-width: 4rem;
+  height: auto;
+}
+
+.header-content h1 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.header-content p {
+  font-size: 1rem;
+}
+
+.nav-header {
+  align-items: center;
+  display: flex;
+  list-style: none;
+}
+
+.nav-header ul {
+  display: flex;
+}
+
+.nav-header li {
+  margin: 0 1.5rem;
+  font-size: 1.1rem;
+}
+
+
+/* Estilos para o conteúdo principal (main) */
+section {
+  margin: 1rem 1.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--color-cinza)
+}
+
+#about h2,
+#projetos h2,
+#contact h2 {
+  font-weight: 600;
+}
+
+#about p,
+#projetos p,
+#contact p {
+  margin: 0.5rem 0;
+}
+
+.project {
+  border: 1px solid var(--color-cinza);
+  padding: 10px;
+  margin: 10px;
+}
+
+#contact a {
+  color: blue;
+  text-decoration: underline
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 20px;
+  text-align: center;
+}
